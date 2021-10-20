@@ -40,6 +40,18 @@ This project contains three parts:
 + flask
 + pickle
 
+## Deployment
+```
+python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db  
+
+python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+
+python run.py
+
+# Note: by default, it is set to run at localhost: http://127.0.0.1:3001/ .
+```
+
+
 ## Licensing, Authors, and Acknowledgements
 ### Author: 
 Isabella Xu<br/>
